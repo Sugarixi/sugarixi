@@ -58,6 +58,39 @@ html, body {
     padding-left: 20px;
 }
 
+.tab-pane, .tab-content {
+    height: 100%;
+}
+
+.FormContainer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.FormBox {
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fde2e4;
+    border: 1vh solid #fad2e1;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.Form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type=submit] {
+    background-color: #fad2e1;
+    border: 1px solid #fad2e1;
+}
 .Footer {
     height: 10vh;
     width: 100%;
